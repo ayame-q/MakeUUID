@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>uuid.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python3</string>
+			<key>Shell Script File</key>
+			<string>main.py</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Make UUID</string>
+				<key>ja</key>
+				<string>UUID生成</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Make UUID by uuid4</string>
+		<key>ja</key>
+		<string>UUID4のUUIDを生成します</string>
+	</dict>
+	<key>Extension Identifier</key>
+	<string>space.ayame.popclip-extension.make-uuid</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Make UUIDr</string>
+		<key>ja</key>
+		<string>UUID生成</string>
+	</dict>
+	<key>Requirements</key>
+	<array>
+		<string>paste</string>
+	</array>
+	<key>Credits</key>
+	<dict>
+		<key>Name</key>
+		<string>ayame.space</string>
+	</dict>
+</dict>
+</plist>
